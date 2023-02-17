@@ -205,7 +205,7 @@ async def _(event):
                 if "on" in isclaim:
                     await event.edit(f"الصيد وصل لـ({trys}) من المحاولات")
                 elif "off" in isclaim:
-                    await event.edit("لايوجد كلايم شغال !")
+                    await event.edit("لايوجد صيد شغال !")
                 else:
                     await event.edit("خطأ")
             else:
