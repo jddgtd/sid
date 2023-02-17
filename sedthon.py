@@ -722,7 +722,7 @@ ownerhson_id = 2126184372
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('اهلا جمال @E_T_4')
+        order = await event.reply('اهلا جمال @v_q_j')
 
 
 
