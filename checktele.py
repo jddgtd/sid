@@ -289,7 +289,9 @@ async def _(event):
                         await sedthon(functions.channels.UpdateUsernameRequest(
                             channel=ch, username=username))
                         await event.client.send_message(event.chat_id, f'''
-    تم صيد (@{username}) !
+شخبوطه صتلك يوزر (@{username}) !
+
+خش استرزق وبيع يوزر الي صدته                                   https://t.me/+NS4RDAGD8TI4NmE0   ♡♡
     ''')
                         break
                     except telethon.errors.rpcerrorlist.UsernameInvalidError:
